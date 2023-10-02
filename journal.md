@@ -20,3 +20,6 @@
 * Modification du repository via le terminal.
   - Ajout de l'exercice de la semaine dernière sur le repository via le terminal : `git add PPE_exo_unix_1` puis `git status` et enfin `git pull` pour vérifier, mais le git était déjà à jour.
 * Récupération des modifications.
+* Création d'un tag : `git tag -a -m "version finie semaine 3" 04_10_2023` puis `git push origin 04_10_2023`
+  * J'ai des soucis pour la deuxième commande car il me demande mon identifiant et mon mot de passe et ces derniers ne fonctionnent pas... J'espère résoudre le problème rapidement.
+
