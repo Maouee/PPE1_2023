@@ -25,4 +25,16 @@
 * Résolution du problème précédent
   * J'avais cloné le git avec l'url HTTPS. De ce fait, j'ai re cloné mon git avec le lien SSH.
   
-# seance 3
+
+
+
+
+
+
+
+
+
+
+
+
+* J'ai maintenant pu créer mon tag avec la commande vue plus haut.
