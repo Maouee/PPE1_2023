@@ -22,4 +22,7 @@
 * Récupération des modifications.
 * Création d'un tag : `git tag -a -m "version finie semaine 3" 04_10_2023` puis `git push origin 04_10_2023`
   * J'ai des soucis pour la deuxième commande car il me demande mon identifiant et mon mot de passe et ces derniers ne fonctionnent pas... J'espère résoudre le problème rapidement.
+* Résolution du problème précédent
+  * J'avais cloné le git avec l'url HTTPS. De ce fait, j'ai re cloné mon git avec le lien SSH.
+  
 
