@@ -5,15 +5,11 @@
 * Découvertes et rappel de commandes Unix.
 * Prise en main de GitHub.
 * Création du répository personnel [journal de bord].
-
-
-## Deuxième cours - 27 septembre 2023
-
 * Exercice de prise en main des commandes UNIX comme `unzip`, `cd`, `mkdir`, `rmdir` ou encore `mv`.
   - J'ai mis un petit peu de temps à reprendre en main les commandes mais à part ça, je n'ai pas eu de problèmes        en particulier pour cet exercice. J'aurai cependant bien voulu réussir à plus automatiser mes transferts. Ci-         dessous un exemple de commande effectuée : `mv Fichiers/2016_08*.txt txt/2016/08`
 
-    
-## Troisième cours - 4 septembre 2023
+
+## Deuxième cours - 27 septembre 2023
 
 * Synchronisation du repository personnel GitHub avec ma machine.
   - Je n'ai eu aucun problèmes pour la synchronisation du Git.
@@ -22,12 +18,22 @@
 * Récupération des modifications.
 * Création d'un tag : `git tag -a -m "version finie semaine 3" 04_10_2023` puis `git push origin 04_10_2023`
   - J'ai des soucis pour la deuxième commande car il me demande mon identifiant et mon mot de passe et ces derniers ne fonctionnent pas... J'espère résoudre le problème rapidement.
+
+
+## Troisième cours - 4 septembre 2023
+
 * Résolution du problème précédent
   - J'avais cloné le git avec l'url HTTPS. De ce fait, j'ai re cloné mon git avec le lien SSH.
   - J'ai maintenant pu créer mon tag avec la commande vue plus haut.
- 
-
-## Quatrième cours - 11 octobre 2023
 
 * Mise en pratique de commandes Git à travers différents exercices.
   - Lors du premier exercices, j'ai pu m'entrainer à annuler des commits. Il y a deux méthodes différentes selon si le commit a été fait par le terminal ou sur _github.com_. Si le commit est sur la machine, on peut utiliser `git reset HEAD~1` (on peut préciser --hard ou --soft). Si le commit est sur _github.com_, on peut utiliser `git reset` suivi de l'identifiant SHA du commit que l'on peut trouver dans les log des commits (`git log`). Grâce à ses commandes j'ai pu réaliser l'exercice 1 sans trop d'encombres.
+
+
+
+
+
+
+## Quatrième cours - 11 octobre 2023
+
+
