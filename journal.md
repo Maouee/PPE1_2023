@@ -28,7 +28,7 @@
 
 * Mise en pratique de commandes Git à travers différents exercices.
   - Lors du premier exercice, j'ai pu m'entrainer à annuler des commits. Il y a deux méthodes différentes selon si le commit a été fait par le terminal ou sur _github.com_. Si le commit est sur la machine, on peut utiliser `git reset HEAD~1` (on peut préciser --hard ou --soft). Si le commit est sur _github.com_, on peut utiliser `git reset` suivi de l'identifiant SHA du commit que l'on peut trouver dans les log des commits (`git log`). Grâce à ses commandes j'ai pu réaliser l'exercice 1 sans trop d'encombres.
-  - Pour le deuxième exercice, j'ai eu beaucoup plus de mal... N'ayant pas bien compris la consigne, j'ai dû demander de l'aide à une camarade. Après ses explications et son aide, j'ai pu mieux comprendre mais je sais que je n'ai pas assimilé à 100%.
+  - Pour le deuxième exercice, j'ai eu beaucoup plus de mal... N'ayant pas bien compris la consigne, j'ai dû demander de l'aide à une camarade. Après ses explications et son aide, j'ai pu mieux comprendre mais je n'ai pas assimilé à 100%.
 
 
 ## Quatrième cours - 11 octobre 2023
