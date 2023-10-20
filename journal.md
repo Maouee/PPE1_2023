@@ -48,4 +48,25 @@
   - J'ai réussi à avoir la logique pour résoudre l'exercice, cependant j'ai été bloqué pendant quelques temps. J'ai eu la chance de bénéficier de l'aide de camarades et en tatonnant tous ensemble, nous avons pu remarquer que c'était seulement un problème de syntaxe... la joie du code :) !! De ce fait mes exercices de la semaine se trouve dans _Exercices/exercice_4.sh_ 
 
 
+## Cinquième cours - 18 octobre 2023
+
+* Projet et choix du mot
+  - Pour le projet, nous pensons prendre comme langue : l'anglais et l'italien et pour la troisième nous hésitons encore. Pour ce qui est du mot, nous avons décidé de choisir un terme qui peut avoir une connotation différente selon les folklores des langues choisies. Nous avons pour l'instant pensé à "renard" qui a par exemple une connotation positive en russe mais pas particulièrement dans les autres langues, voire négative en français. Nous avons également pensé au mot "sorcière" car il nous plait et s'imprègne aussi de la culture de la langue. Nous hésitons donc encore sur le mot mais le choix sera probablement fait entre ces deux là.
+  
+* Exercices
+  - Les exercices de cette semaine ne m'ont pas particulièrement posés problème. Je suis néamoins contente car je commence à acquérir des automatismes pour les commandes GIT et les modifications de mon GIT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
