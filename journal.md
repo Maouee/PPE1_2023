@@ -23,7 +23,7 @@
   - J'ai des soucis pour la deuxième commande car il me demande mon identifiant et mon mot de passe et ces derniers ne fonctionnent pas... J'espère résoudre le problème rapidement.
 
 
-## Troisième cours - 4 septembre 2023
+## Troisième cours - 4 octobre 2023
 
 * Résolution du problème précédent
   - J'avais cloné le git avec l'url HTTPS. De ce fait, j'ai re cloné mon git avec le lien SSH.
@@ -57,6 +57,16 @@
   - Les exercices de cette semaine ne m'ont pas particulièrement posés problème. Je suis néamoins contente car je commence à acquérir des automatismes pour les commandes GIT et les modifications de mon GIT.
 
 
+## Sixième cours - 25 octobre 2023
+
+* Projet et choix du mot
+  - Nous hésitons toujours sur le choix de notre mot. Nous pensons choisir un mot comme "fourbe, malicieux, rusé ou encore sournois". On prendrait de ce fait le problème à l'envers et peut-être qu'on pourra remarquer si le mot se retrouve associé à des mots similaires selon les différentes langues.
+
+* Exercices
+  - J'avais bien avancé sur l'exercice pendant le cours. Il ne me restait donc qu'à corriger certaines erreurs et récuperer l'encodage de la page. Pour récuperer l'encodage, je n'ai pas eu de problème car c'était quasiment la même manipulation que pour récuperer le code HTTP de la requête. Un des codes que l'on récupère est HTTP 502 (Bad Gateway), le problème vient du serveur et je pense que ce sera de ce fait compliqué (impossible) à corriger. Un des codes HTTP qui est récupéré est 301, ce qui veut dire qu'on a affaire à une redirection. Je vois bien que l'URL ne commence pas par HTTP mais je ne sais pas du tout comment je peux corriger cette erreur avec mon script... Je vais essayer de réfléchir à ce problème au cours de la semaine. 
+
+
+## Septième cours - 8 novembre 2023
 
 
 
