@@ -1,12 +1,19 @@
 #verification
-if [ $# -ne 1 ] 
+nombre_arguments_attendus=2
+
+if [ $# -ne $nombre_arguments_attendus ] 
 then
-    echo "Ce script demande un argument." 
+    echo "Le nombre d'arguments attendus est invalide : $#"
+    echo "Ce script demande : $nombre_arguments_attendus argument(s)." 
         exit
 fi
 
-#argument
+#argument(s)
 fichier=$1
+nombre_mots=${2:-25}
 
 #traitement
-tr "[A-Z]" "[a-z]" < $fichier | tr -d "[:punct:]" | grep -oE '\w+'
+resultat=$(tr "[A-Z]" "[a-z]" < $fichier | tr -d "[:punct:]" | grep -o -E "\w+" | uniq -c | sort -r )
+
+#Affichage
+echo "$resultat" | head -n "$nombre_mots"
