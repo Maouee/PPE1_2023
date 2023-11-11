@@ -68,11 +68,15 @@
 
 ## Septième cours - 8 novembre 2023
 
+* Projet et choix du mot
+  - Nous avons enfin choisi notre mot, ce sera : arbre (en anglais, en russe et en italien).
+
+* Exercices
+  - Pour les exercices supplémentaires, je n'ai pas eu trop de problèmes. J'ai dû faire des recherches sur internet pour savoir comment ajouter un argument optionnel qui a une valeur par défaut si aucun argument n'est donné. Pour l'exercice sur les bigrammes, je ne sais pas s'il sera correct car je n'ai pas du tout utilisé la commande `paste`.
+  - L'exercice sur la construction du tableau HTML m'a demandé pas mal de réflexion mais j'ai réussi.  
 
 
-
-
-
+## Huitième cours - 15 novembre 2023
 
 
 
