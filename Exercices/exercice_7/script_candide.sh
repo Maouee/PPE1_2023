@@ -1,8 +1,9 @@
 #verification
 nombre_arguments_attendus=1
 
-if [ "$#" -lt 1 ] | [ "$#" -gt 2 ] 
+if [ "$#" -lt 1 ] | [ "$#" -gt 2 ] [ ! -f "$1" ]
 then
+    echo "Cet argument n'est pas un fichier."
     echo "Le nombre d'arguments attendus est invalide : $#"
     echo "Ce script demande : $nombre_arguments_attendus argument(s)." 
         exit

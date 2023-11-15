@@ -17,15 +17,17 @@ fi
 
 
 #balises HTML début
-echo "<html>"
-
-echo "<head>"
-echo "<title>Tableau requetes URL</title>"
-echo "</head>"
-
-echo "<body>"
-echo "<table>"
-echo "<tr><th>Numero</th><th>URL</th><th>Code HTTP</th><th>Encodage</th></tr>"
+echo "
+<html>
+	<head>
+		<meta charset=\"UTF-8\">
+		<title>Tableau requetes URL</title>
+	</head>
+	
+	<body>
+	<table>
+	<tr><th>Numero</th><th>URL</th><th>Code HTTP</th><th>Encodage</th></tr>
+	"
 
 
 lineno=1
