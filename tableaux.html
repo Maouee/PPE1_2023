@@ -1,0 +1,145 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site mini-projet</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/cb9865261a.js" crossorigin="anonymous"></script>
+    <title>Tableau requetes URL</title>
+</head>
+
+<body class="is-fullheight">
+    
+        <div class="columns">
+            <!--(petite)colonne de gauche-->
+            <div class="column">
+            
+            </div>
+    
+            <!--colonne principale, toutes les infos-->
+            <!--en-tête avec le titre et la barre de navigation-->
+            <div class="column is-four-fifths">
+                <section class="hero is-small has-background-success-light">
+                    
+                    <div class="hero-body" style ="padding-bottom: 1px;">
+                      <p class="title has-text-centered">
+                       Présentation du mini-projet
+                      </p>
+                      <p class="subtitle has-text-centered">
+                        Projet encadré M1 TAL
+                      </p>
+                     
+                      <!--barre de navigation-->
+                      <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+                        <div class="navbar-brand">                      
+                          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                          </a>
+                        </div>
+                      
+                        <!--bouton home-->
+                        <div id="navbarBasicExample" class="navbar-menu">
+                          <div class="navbar-start">
+                                <a class="navbar-item" href="index.html">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-home" style= "margin-bottom: 2px;" aria-hidden="true"></i>
+                                    </span>
+                                    <span style="margin-left: 8px;">Home</span>
+                                </a>
+                            <!--bouton tableaux-->
+                            <a class="navbar-item" href="tableaux.html">
+                                <span class="icon is-small">
+                                <i class="fa-solid fa-table-list" aria-hidden="true"></i>
+                                </span>
+                                <span style="margin-left: 8px;">Tableau</span>
+                                
+                            </a>
+                            
+                        </div>
+                      </nav>
+                    </div>
+                </section>
+
+                <!--tableau d'URLS-->
+                <table class="table" style="margin-top: 15px;">
+                    <thead>
+                        <tr>
+                            <th>Numéro</th>
+                            <th>URL</th>
+                            <th>Code HTTP</th>
+                            <th>Encodage</th>
+                        </tr>
+                    </thead> 
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><a href="https://fr.wikipedia.org/wiki/Robot">https://fr.wikipedia.org/wiki/Robot</a></td>
+                            <td>200</td><td>     
+                            </td></tr>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><a href="https://fr.wikipedia.org/wiki/Robot_de_cuisine">https://fr.wikipedia.org/wiki/Robot_de_cuisine</a></td>
+                            <td>200</td>
+                            <td></td>                       
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><a href="fr.wikipedia.org/wiki/Robot_d%27indexation">fr.wikipedia.org/wiki/Robot_d%27indexation</a></td>
+                            <td>200</td>
+                            <td></td>                        
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><a href="https://fr.wikipedia.org/wiki/Bot_informatique">https://fr.wikipedia.org/wiki/Bot_informatique</a></td>
+                            <td>200</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><a href="https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)">https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)</a></td>
+                            <td>404</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td><a href="https://roboty.magistry.fr">https://roboty.magistry.fr</a></td>
+                            <td>502</td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+                </table>           
+            </div>
+
+            <!--(petite)colonne de droite-->   
+            <div class="column">
+        
+            </div>
+
+        </div>
+
+</body>
+
+<footer class="footer mt-auto">
+    <div class="content has-text-centered">
+        <nav class="pagination is-small is-centered" role="navigation" aria-label="pagination">
+            <a class="pagination-previous is-disabled" style="margin-left: 25px;" title="This is the first page">Précédent</a>
+            <a class="pagination-next" style="margin-right: 25px;">Suivant</a>
+            <ul class="pagination-list">
+            <li>
+                <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
+            </li>
+            <li>
+                <a class="pagination-link" aria-label="Goto page 2">2</a>
+            </li>
+            <li>
+                <a class="pagination-link" aria-label="Goto page 3">3</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</html>
