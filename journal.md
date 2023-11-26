@@ -78,7 +78,13 @@
 
 ## Huitième cours - 15 novembre 2023
 
+* Exercices
+  - J'ai bien aimé créer mon site. Je connaissais déjà le langage HTML mais je n'en avais pas fait depuis longtemps, la reprise s'est faite assez rapidement. J'ai beaucoup apprécié découvrir Bulma, la prise en main s'est faite très simplement et il est facile de faire des choses compliquées. Le site est vite joli et c'est agréable.
+ 
+## Neuvième cours - 22 novembre 2023
 
+* Projet
+  - Le projet se passe bien. Nous n'avons pas été bloqué sur une étape en particulier. Nos 3 scripts étaient relativement très similaires, de ce fait nous avons pris un script que nous avons étoffé au fur et à mesure des demandes lors des exercices. Florian a eu un problème d'encodage lors des extractions des pages avec `lynx`. Nous avons essayé sur l'ordinateur de Lucile qui a Ubuntu et nous n'avons pas eu le problème. Nous allons essayer de régler cette histoire au plus vite car c'est embêtant si Lucile est la seule a pouvoir lancer les scripts. 
 
 
 
